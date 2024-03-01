@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="SSH" unique_id="18" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1705858920" ts_lastsave="1706433012">
+    <rich_text strikethrough="true">Secure</rich_text>
+    <rich_text> shell (port 22)
+
+How to connect to a machie when you don't have keys
+
+ssh &lt;ip&gt;
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text> 
+
+ssh &lt;ip&gt; -oKexAlgorithms=+&lt;algorithm&gt;
+
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text> 
+
+ssh &lt;ip&gt; -oKexAlgorithms=+&lt;algorithm&gt; -c &lt;cipher&gt;
+
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text> 
+
+</rich_text>
+    <encoded_png char_offset="86" justification="left" link="" sha256sum="974eac5d6b65f12f544f904f4f02ad1f623cc6562eee4a0a0d7a253bcd566381"/>
+    <encoded_png char_offset="129" justification="left" link="" sha256sum="0ba9cb90210d6fca1bbbb53376f209ad15c0482c8a71648f3b42b971b4d7273a"/>
+    <encoded_png char_offset="184" justification="left" link="" sha256sum="866570772903ef7c3d115ec9e1094950c37e9ba80c34d0ea701e3286248c5745"/>
+  </node>
+</cherrytree>

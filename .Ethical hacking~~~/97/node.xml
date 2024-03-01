@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="Exploitation" unique_id="97" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1709013775" ts_lastsave="1709016568">
+    <rich_text>Generating exploit using </rich_text>
+    <rich_text link="node 17">msfvenom</rich_text>
+    <rich_text>:
+
+ 
+
+Send the exploit to the program:
+ 
+
+now the code will overwrite the eip to jump to esp, since the eip is the last part of stack, the extra code (overflow) will po
+ </rich_text>
+    <encoded_png char_offset="36" justification="left" link="" sha256sum="d0a8d947d6c65996cb455b7f02cb33019937ac6e9635afee5b9c2740c6e4f013"/>
+    <encoded_png char_offset="73" justification="left" link="" sha256sum="e809738233f2d62bed06c56e30bfb0ab831ba8d0cb861b0e85f77b2d7b59d642"/>
+  </node>
+</cherrytree>

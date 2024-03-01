@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="zsh" unique_id="67" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1707565089" ts_lastsave="1707565871">
+    <rich_text>zsh has it's own way of storing and modifying ps1 variable
+
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text> 
+
+these text can be modified to change the overall appearence of the prompt
+
+ 
+
+these are saved in zshrc as </rich_text>
+    <encoded_png char_offset="60" justification="left" link="" sha256sum="c4426f5376568ae4f34fa78e66773756819d4c927b03818a301825756f810dc2"/>
+    <encoded_png char_offset="139" justification="left" link="" sha256sum="2006f4498c225a5f3f1e0238dcc0eb9674217d84b57b0eda3f32fd541cf7da5e"/>
+  </node>
+</cherrytree>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="Find" unique_id="77" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1708417938" ts_lastsave="1708580553">
+    <rich_text>find [options] starting_point criteria action
+The starting_point is the directory where the search will start. The criteria is
+what to search for, and the action is what to do with the results.
+
+
+ 
+ 
+
+ 
+
+ 
+
+example: find /home -maxdepth 2 -mount -name "*.pdf" -exec ls -l {} \; -exec file {} \; 
+ 
+
+Output:
+
+
+
+
+ </rich_text>
+    <encoded_png char_offset="196" justification="left" link="" sha256sum="c7457e92aacf4054bfad24b81654378f1fa49d10effeb8cf6e0857672148dc1a"/>
+    <encoded_png char_offset="199" justification="left" link="" sha256sum="41e105aa8827aff5f88f8dc3810f5c29d9a9062f4142ff5bcaebadb262c93914"/>
+    <encoded_png char_offset="203" justification="left" link="" sha256sum="263d7b282991ea1c6b4dfe74a8e0509398e245787e475a2df3b17d3ab26f6989"/>
+    <encoded_png char_offset="207" justification="left" link="" sha256sum="32a6cac472fd7255875e91bfc72e5c29e135df28fa94dba762b726b6d220177d"/>
+    <encoded_png char_offset="300" justification="left" link="" sha256sum="ab12411d17d041cb53472c651b70fc0abd8675e9285292238eb7b50afaec8c68"/>
+    <encoded_png char_offset="313" justification="left" link="" sha256sum="5c851a212a3031bfcfba07fc6c9db557e08ccb1f485d58c65149e19ecab5a7dd"/>
+    <encoded_png char_offset="317" justification="left" link="" sha256sum="fad4cb8099da6ec75afa4c01752b22c767b48a6b9af20006cc370cc21008f15c"/>
+  </node>
+</cherrytree>

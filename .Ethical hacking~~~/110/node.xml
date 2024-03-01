@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="Attack" unique_id="110" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1709232411" ts_lastsave="1709237864">
+    <rich_text>Target identification:
+
+We can use nmap to validate if the target is vulnerable to smb relay (doesn't have smb signing enforced)
+
+command: nmap --script=smb2-security-mode.nse -p445 192.168.56.102 (-Pn if the machine is blocking ping probes)
+
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text> 
+
+in servers by default smb signing is enforced, hence our domain controller (192.168.56.102) is not vulnerable to the attack
+
+scanning all the machines on the network to identify potential targets:
+
+command: nmap --script=smb2-security-mode.nse -p445 192.168.56.0/24 -Pn |grep -B 11 not
+
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text> 
+
+Hence we can identify machines in the netword that are vulnerabe to smb relay attack
+
+we can save the ips in targets.txt for future use
+
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text> 
+
+Now we can configure responder for smb relay attack:
+
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text>  
+
+now we can setup responder to listen to the network:
+
+command: sudo responder -I vboxnet0 -DPv
+
+ 
+
+We should also start ntlmrelayx (impacket) to act as the smb relay:
+
+command: impacket-ntlmrelayx -tf targets.txt -smb2support
+
+ 
+
+then we have to wait for the llmnr event to trigger(host resolution fail):
+
+
+
+ 
+
+By now Responder has captured and poisoned llmnr packets (multicast request looking for test) :
+
+ 
+
+The said packets are forwaded to the running instance of ntlmrelayx which proceeds to try it against all the targets in the list and checks if connection can be established:
+
+ 
+
+Once the connection is established (as administrator), by default it will dump the SAM file:
+
+ 
+
+we can use -i to g</rich_text>
+    <encoded_png char_offset="243" justification="left" link="" sha256sum="ef293bd039677ca02155a83926c56fa2a14273231d32f8d146ceac29989fcd8d"/>
+    <encoded_png char_offset="534" justification="left" link="" sha256sum="aefab8b269a3a512af1acc3fd33c6dabf105e8516647833239549e3c805ac3db"/>
+    <encoded_png char_offset="675" justification="left" link="" sha256sum="a8d373cf7ccef6e5d10ff1da63f6022d9750941ed947054064b2461e313ff6a0"/>
+    <encoded_png char_offset="733" justification="left" link="" sha256sum="9b4185ace8436eaa95eca1290c908b3029cacecf72d89bb1550dc3ef24e4d7d3"/>
+    <encoded_png char_offset="834" justification="left" link="" sha256sum="22b4d4d6ef511284240d649db837dac7d10c00c573104c7540f3400740bbd767"/>
+    <encoded_png char_offset="966" justification="left" link="" sha256sum="ddbb6d53d903f00f0e55afc874f13969ed96923a3215eb81783f59d620a9257c"/>
+    <encoded_png char_offset="1046" justification="left" link="" sha256sum="6721e943d36de7148f57af400ffbd7d6aa3014c1ffbfa51700f6154517d1c5e4"/>
+    <encoded_png char_offset="1049" justification="left" link="" sha256sum="3efac69da7ec5938f966d80b8b82546092c6c1007d0b5e5e27ff20a1a15754da"/>
+    <encoded_png char_offset="1150" justification="left" link="" sha256sum="6b158120ac470ace66bb777c11572af70e4c157b61f35b31cb18ead47b103675"/>
+    <encoded_png char_offset="1329" justification="left" link="" sha256sum="6262bb5952fd6bca8f4607c3dd1721187069363be4709713f147532d40eca1ed"/>
+    <encoded_png char_offset="1427" justification="left" link="" sha256sum="b3da91738e051c05f1302d2cf41191584591d67b4cf2ff3e1246db5825d5b12f"/>
+  </node>
+</cherrytree>

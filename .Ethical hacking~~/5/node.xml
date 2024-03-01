@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="Fingerprinting" unique_id="5" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1705814933" ts_lastsave="1705838921">
+    <rich_text>Fingerprinting a website, i.e finding all the specifics of that website such as Technologies and ports
+
+1. nmap
+2. wappalyzer: firefox extension like shodan to get web technologies
+3. whatweb: CLI tool to quickly get technologies and info about a website. [whatweb vit.ac.in] 
+ </rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text> 
+
+
+4. </rich_text>
+    <rich_text link="webs http://builtwith.com">builtwith</rich_text>
+    <rich_text>: an online tool that can pull detail about all the technologies a web app is running </rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text> 
+
+
+5. netcat
+6. BurpSuite</rich_text>
+    <encoded_png char_offset="278" justification="left" link="" sha256sum="eb96de39cc85a1e70bbd1c9d5a5542619346d16c6494e427f599268bd58956a5"/>
+    <encoded_png char_offset="381" justification="left" link="" sha256sum="6c3782749dd9bb5cc9af137d0e8d9312b7ec3cb7b8ea41838cbb21367ac46506"/>
+  </node>
+</cherrytree>

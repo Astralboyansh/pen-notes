@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="History" unique_id="73" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1707642590" ts_lastsave="1707643065">
+    <rich_text>“history” command to view history of shell
+
+ 
+
+“!n” to execute nth command from history
+
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text> 
+
+ 
+
+history config variables:
+
+ 
+ 
+
+.bash_history file stores the history once the current session is closed, another file can be used using HISTFILE variable
+size </rich_text>
+    <encoded_png char_offset="44" justification="left" link="" sha256sum="5509e8ee136c283ddfd8edcfdb073bd1aa48aa80a518f612dd502b544489193c"/>
+    <encoded_png char_offset="90" justification="left" link="" sha256sum="9a112df8f118534a58a4e8487688d4f8f32ab2046a39c4d3ebfb1faeb66ed118"/>
+    <encoded_png char_offset="94" justification="left" link="" sha256sum="3fbf3aba3077f57f9d0dbc0bbaf62db25ffd99dcac549dc720f69d639ffee9e6"/>
+    <encoded_png char_offset="125" justification="left" link="" sha256sum="1ed6fdf73b415c4ac19d40a8eab5fbe082b83743050d2af26921174576c96c25"/>
+    <encoded_png char_offset="128" justification="left" link="" sha256sum="81fbf47f03488db121dd040ff967a573b8552a0a44c40b08ce91578d943fab27"/>
+  </node>
+</cherrytree>

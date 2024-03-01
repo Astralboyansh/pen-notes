@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="Net-Bios" unique_id="82" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1708939105" ts_lastsave="1708948223">
+    <rich_text>NetBIOS is an old (1980s) session layer service that offers an API for communication between applications on a LAN, that predates TCP/IP. It’s not a protocol itself, but an API that leverages other communications protocol (ex: NBT leverages tcp, NBF: IEEE 802.2 LLC, NBX: NetWare's IPX/SPX)
+
+In modern networks, NetBIOS runs over TCP/IP, termed NBT⁴ (or NetBT) and hence allows netbios services over tcp
+
+NetBIOS is used as a fallback for name resolution only when mDNS (firstly), and then LLMNR (secondly) queries fail.
+
+NetBIOS effectively offers backwards compatibility for network devices that predate compatibility with DNS
+
+Netbios services:
+
+</rich_text>
+    <rich_text link="node 83">137- Netbios-ns</rich_text>
+    <rich_text> : name service
+
+138- Netbios-dgm: sending and receiving of connectionless, non-sequenced datagrams between hosts (allows to discover smb hosts in the network)
+</rich_text>
+    <rich_text link="node 84">139- Netbios-ssn</rich_text>
+    <rich_text>: allows for establishing connections and transfer of data</rich_text>
+  </node>
+</cherrytree>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="Environment variables" unique_id="69" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1707572159" ts_lastsave="1707591385">
+    <rich_text>When a variable is created, it's available only in the ccurrent shell session (local variable)
+
+A variable can be converted to environment variable hence any program or command connected to that shell session will have access to it.
+
+a local variable can be converted to environment variable using </rich_text>
+    <rich_text link="node 71">export</rich_text>
+    <rich_text> command (for the current session)
+
+When a variable is converted into an environment variable, all subprocesses
+(commands or programs started by the shell) will have this variable set. This is
+useful when you want to change the behavior of a process by modifying a key
+variable.
+
+env:  displays environment variables in the current shell
+
+
+</rich_text>
+  </node>
+</cherrytree>

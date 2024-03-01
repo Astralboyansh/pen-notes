@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="bash" unique_id="66" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1707565085" ts_lastsave="1707565481">
+    <rich_text>bash has it's own </rich_text>
+    <rich_text link="webs https://linuxsimply.com/bash-scripting-tutorial/variables/types/ps1/">syntax</rich_text>
+    <rich_text> for ps1
+
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text> 
+
+this can be rewritten and modified
+
+ 
+
+these are stored in bashrc as ps1
+
+</rich_text>
+    <encoded_png char_offset="34" justification="left" link="" sha256sum="fa66b44e18a1332dd72a12562e7aea3c225c419ac242dffc503cf54bdacd1e6a"/>
+    <encoded_png char_offset="74" justification="left" link="" sha256sum="086831c6e9472b935c5aa403a8d44e4c73170b5cc1a3b96429c9561f9fe8a885"/>
+  </node>
+</cherrytree>

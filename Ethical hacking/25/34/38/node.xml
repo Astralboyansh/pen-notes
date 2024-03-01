@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="Ports" unique_id="38" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1705776645" ts_lastsave="1708948153">
+    <rich_text link="webs https://www.stationx.net/common-ports-cheat-sheet/">ports-cheatsheet</rich_text>
+    <rich_text> 
+
+
+7	Echo
+20, 21	FTP
+22	SSH/SCP
+23	Telnet
+25	SMTP
+53	DNS
+67, 68	DHCP/BOOTP
+69	TFTP
+80	HTTP
+88	Kerberos
+110	POP3
+123	NTP
+</rich_text>
+    <rich_text link="node 85">135 MSRPC</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text link="node 82">137,138,139	NetBIOS</rich_text>
+    <rich_text>
+143	IMAP
+161	SNMP
+194	IRC
+389	LDAP
+443	HTTPS
+</rich_text>
+    <rich_text link="node 81">445	Microsoft DS SMB</rich_text>
+    <rich_text>
+464	Kerberos password settings
+547		DHCPv6
+596	SMSD
+636	LDAP over SSL
+1720	H.323
+3389	RDP
+5060	SIP
+5061	SIP over TLS</rich_text>
+  </node>
+</cherrytree>

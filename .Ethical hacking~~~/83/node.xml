@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="Netbios-ns" unique_id="83" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1708945252" ts_lastsave="1708945263">
+    <rich_text weight="heavy">Netbios-ns</rich_text>
+    <rich_text> (137): name service (kinda like dns, resolves netbios names for communication on lan)
+
+The NetBIOS name is usually derived from the computer name, but is limited to 16 octets in length, where the final octet (NetBIOS suffix) designates the type of resource. Thus, NetBIOS names are effectively limited to 15 legal UTF-8 characters. Common suffixes are: 
+
+00, Workstation Service; 20, File Service; and 21, Remote Access Service.
+
+in an NBT network (running over TCP/IP) the name service translates NetBIOS names to IP addresses (since host names translate to ip address in IP) 
+as Netbios is an api, it allows for the user to have the same hostname and communicate over different protocols as it's the job of netbios to translate Netbios name
+to specific identifier for the used protocol
+
+NetBIOS names registered by a host can be inspected with nbtstat -n (🪟), or enum4linux -n or Nmap’s nbstat script (🐧).
+
+command: sudo nmap -sU --script nbstat.nse -p&lt;port of sn&gt; &lt;host&gt;
+*note: eventhough the machine i am trying has ssn(session) open on 139, nmap still seems to enumerate on 137
+gemini indicates that the session maybe running on 139, it can still be utilizing 137 for name resolution as a service port
+
+</rich_text>
+    <rich_text underline="single">therefore, in netbios, the session for file transfer is open on 139, but name service still operates on 137 eventhough it may not show up on an nmap scan</rich_text>
+    <rich_text>
+
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text> 
+
+
+In NBT, netbios-ns operates on UDP port 137, sometimes TCP port 137</rich_text>
+    <encoded_png char_offset="1374" justification="left" link="" sha256sum="4e757fe8ed61508a246d39ad9a0022108ef1d1733556b1421322e2d94d2085f1"/>
+  </node>
+</cherrytree>

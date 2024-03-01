@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="PS1" unique_id="65" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1707562765" ts_lastsave="1707564894">
+    <rich_text>Prompt string
+
+PS1 is (one of) the shell variable responsible for our interaction with the terminal.
+
+ps 0-4 all define various parts of the shell we interact with, ps1 defines the prompt we see, i.e the cosmetics of the the prompt
+  this appearence is set by ps1 and can be changed similarly
+
+rest ps work with:
+ 
+</rich_text>
+    <encoded_png char_offset="232" justification="left" link="" sha256sum="5c57d22a44cc67a38c9102dad6a397e55a56a993169435aa6a0d879ac791d77d"/>
+    <encoded_png char_offset="314" justification="left" link="" sha256sum="e98d0d93b386cfaa67be98c3130d73c2f0ac160d439eced751f916ac74464c3f"/>
+  </node>
+</cherrytree>

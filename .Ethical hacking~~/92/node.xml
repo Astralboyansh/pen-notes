@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="Shares" unique_id="92" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1708963908" ts_lastsave="1708966020">
+    <rich_text weight="heavy">Shares</rich_text>
+    <rich_text>
+
+SMB exposes shares to clients, including a set of default, “hidden”($) administrative shares:
+
+    </rich_text>
+    <rich_text weight="heavy">C$</rich_text>
+    <rich_text>: the C drive on the remote machine.
+    </rich_text>
+    <rich_text weight="heavy">Admin$</rich_text>
+    <rich_text>: the Windows installation directory on the remote machine.
+    </rich_text>
+    <rich_text weight="heavy">IPC$</rich_text>
+    <rich_text>: the inter-process communication share,commonly has anonymous access, and exploses named </rich_text>
+    <rich_text link="node 93">pipes</rich_text>
+    <rich_text>
+    </rich_text>
+    <rich_text weight="heavy">SYSVOL and NETLOGON</rich_text>
+    <rich_text>: domain controller shares.
+    </rich_text>
+    <rich_text weight="heavy">PRINT$ and FAX$</rich_text>
+    <rich_text>: printer and fax shares.
+    
+    The IPC$ share is created by the Windows Server service, and is filled with </rich_text>
+    <rich_text link="node 93">named pipes</rich_text>
+    <rich_text> for operating system components and applications
+    RPC endpoints exposed via IPC$, including the Server service, Task Scheduler, Local Security Authority (LSA), and Service Control Manager (SCM)
+    
+    Named pipes on a system can be listed using SysInternal's </rich_text>
+    <rich_text link="webs https://docs.microsoft.com/en-us/sysinternals/downloads/pipelist">PipeList</rich_text>
+    <rich_text> tool (windows)
+    
+        if Server service is running, all named pipes are accessible remotely and are exposed via the IPC$ share, such that they can be written to or read from. They don’t specify what data is sent over them, instead that’s left up to the RPC interface</rich_text>
+  </node>
+</cherrytree>

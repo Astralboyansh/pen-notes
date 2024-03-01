@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="Buffer Overflow" unique_id="54" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1706966209" ts_lastsave="1706966300">
+    <rich_text>Overriding Buffer space in stack to reach the eip(instruction pointer) and include malicious code
+
+ 
+</rich_text>
+    <encoded_png char_offset="99" justification="left" link="" sha256sum="02b14db226819b9346ef536133df351881f1726cc9a8b15e8aedcb38042b7127"/>
+  </node>
+</cherrytree>

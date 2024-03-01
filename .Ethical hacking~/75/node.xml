@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="nl" unique_id="75" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1707643528" ts_lastsave="1707643547">
+    <rich_text>“nl” number lines
+
+numbers the lines of output
+
+</rich_text>
+  </node>
+</cherrytree>

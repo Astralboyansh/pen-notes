@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="head and tail" unique_id="60" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1707215864" ts_lastsave="1707215966">
+    <rich_text>head: display top 10 lines of a file
+
+head -n display top n lines
+
+tail: display bottom 10 lines
+ tail -n display bottom n lines
+ 
+  
+ 
+  
+ 
+ </rich_text>
+    <encoded_png char_offset="132" justification="left" link="" sha256sum="ac22411b6055e81cc58aff353039e1e82c407e1b0df855fe33139d6cfc83dbb6"/>
+    <encoded_png char_offset="138" justification="left" link="" sha256sum="cc0cfe2c739ecff1e5d0573f9fec85cdc2c1d35541322d48352006d483768826"/>
+  </node>
+</cherrytree>

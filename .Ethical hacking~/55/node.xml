@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="Spiking" unique_id="55" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1706966606" ts_lastsave="1708930243">
+    <rich_text>Spiking: Find vulnerable commands over a network
+
+Command: generic_send_tcp (tries to find vulnerable applications over a tcp connection by overflowing using a spike script)
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text> 
+
+spike script: it will follow the script once connection is established to actually navigate over the application, once we get to the required command to check, keep variable 0 to start bruteforcing (ig is determined by skipvar and skipstr parameters, not sure though)
+
+Script:
+s_readline(); [press enter/go to next line]
+s_string("[command to send]"); [send string and press enter]
+s_string_variable("0"); [in this place every random string will be sent to attempt buffer overflow]
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text> 
+
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text> 
+
+Once the vulnerable command is found we can do fuzzing, i.e try to get detailed evaluation of the command, where it crashes, etc.
+
+A simple python script can be used to determine buffer size and command tolerance
+
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text> 
+
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text> 
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text> 
+</rich_text>
+    <encoded_png char_offset="174" justification="left" link="" sha256sum="006c17801db10f80e532e558bc817e3d1c94548c69fe94a27370f8036eeb1345"/>
+    <encoded_png char_offset="660" justification="left" link="" sha256sum="a220afc9a1d7bbe0a88d30df6993ce0e984af12d20b53fabaa18617ecb77477e"/>
+    <encoded_png char_offset="664" justification="left" link="" sha256sum="d8ec5139eb64fed4cd92e23f14866d36e3fcb35fb69e65f4d7b076558568de0c"/>
+    <encoded_png char_offset="882" justification="left" link="" sha256sum="563dba1ed3f49f2b90d567d85df1efc14467c541129b93a8c0ffb7b12a82aa4c"/>
+    <encoded_png char_offset="886" justification="left" link="" sha256sum="aa841c20f9c3df00341f1a212314c16a2dbc913cf993fc5aaf416eb426bb5f93"/>
+    <encoded_png char_offset="889" justification="left" link="" sha256sum="8a9857eb6e931a7920064000b062c1632cbe0ebc1aa8e7cd7339f3e526fdf4a6"/>
+  </node>
+</cherrytree>

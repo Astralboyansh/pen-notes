@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="SMB and samba" unique_id="81" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1708937805" ts_lastsave="1708963758">
+    <rich_text>what is samba?
+
+Samba is a *nix(unix,linux etc) implementation of smb (network filesharing protocol)
+
+“Samba runs on Unix platforms, but speaks to Windows clients like a native. It allows a Unix system to move into a Windows “Network Neighbourhood” without causing a stir." ~samba.org
+
+The Samba suite of tools is heavily utilised by Linux SMB enumeration tools such as </rich_text>
+    <rich_text link="webs https://github.com/CiscoCXSecurity/enum4linux">enum4linux</rich_text>
+    <rich_text> (and its continuation, </rich_text>
+    <rich_text link="webs https://github.com/cddmp/enum4linux-ng">-ng</rich_text>
+    <rich_text>).
+
+
+</rich_text>
+    <rich_text scale="h2">Microsoft SMB Protocol</rich_text>
+    <rich_text>
+
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text> 
+
+1) </rich_text>
+    <rich_text link="node 82">NetBios(NBT)</rich_text>
+    <rich_text>: When SMB is operating over NBT, ports 137 and 138 (UDP), and 139/TCP, are used, using the NetBIOS services described above.(Since Windows 2000, SMB can operate without NetBIOS, but NBT is ‘</rich_text>
+    <rich_text style="italic">generally</rich_text>
+    <rich_text>’ used for backward compatibility)
+2) SMB Direct(microsoft-ds):  When SMB is hosted directly over TCP, port 445/TCP is used
+Direct SMB traffic is prefixed with a four-byte header: an 0x00 followed by the remaining length of the SMB data, encapsulated in a TCP packet
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text> 
+
+In all versions of Windows up to 10/Server 2019, all four ports are open by default
+</rich_text>
+    <encoded_png char_offset="436" justification="left" link="webs https://miro.medium.com/v2/resize:fit:700/1*0yx2iTp22THE_34OVl9ITQ.png" sha256sum="c23903eab6b8bee0bc8f02436b29bf13f86daedee4ca1e42868516d39bd82faf"/>
+    <encoded_png char_offset="922" justification="left" link="webs https://miro.medium.com/v2/resize:fit:700/1*-xaEZra86wBj8NyZCXK3eA.png" sha256sum="8dabd92ea910f62a6330004eb9964ce1eecfba11cb1385c2f7851d8ada438290"/>
+  </node>
+</cherrytree>

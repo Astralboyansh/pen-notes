@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="set" unique_id="64" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1707216985" ts_lastsave="1707562647">
+    <rich_text>to set and unset shell variables
+usage
+ex: set -x turns on debugger for the shell, i.e prints each line as executed (+x to unset)
+
+new shells can be called with specific options set
+ 
+
+interesting options: noexec, -x , verbose, -C (prevents overwriting files) 
+ 
+</rich_text>
+    <encoded_png char_offset="182" justification="left" link="" sha256sum="4f7d7fe14fb20234285f899f5263ea5bc2ee612ff1e26aa28402cfab67092435"/>
+    <encoded_png char_offset="262" justification="left" link="" sha256sum="d9be25a96881ece6815e6c30cb10298c13184c5bdf165cff1a29d8be2ceb6ec0"/>
+  </node>
+</cherrytree>

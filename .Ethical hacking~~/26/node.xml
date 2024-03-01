@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="NAT" unique_id="26" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1705774699" ts_lastsave="1705777108">
+    <rich_text>Network Address translation
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text> 
+
+Translates private address to public address since limited number of ipv4 address available
+
+various private address are interfaced to single public address using nat
+
+public addresses are brought by various organisation such as isp</rich_text>
+    <encoded_png char_offset="28" justification="left" link="" sha256sum="36d1d2e08fc87850562feb390053ab557b2ae471c2ddc7426687c4c22703bfe4"/>
+  </node>
+</cherrytree>

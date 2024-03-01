@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="LLMNR poisoning" unique_id="105" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1709224140" ts_lastsave="1709238855">
+    <rich_text>Link local multicast name resolution protocol (successor to nbt-ns)
+
+used for name resolution once dns fails. i.e the server cannot resolve the host name, a multicast broadcast will take place throughout the network, for the said host, if a machine knows the host address it can then initiate the connection from the client's hash.(these are smb connections as we tried to access a file system hence smb request was shared)
+
+Poisoning: We will claim to know the hosts in the network so we become a relay in the connection, once the client performs authentication(shares the NTLMv2 hash and username) we can do mitm and capture the hashes, thus we can try to break them and get password of the client.
+
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text> 
+
+Mitigation:
+Turn of llmnr/multicast name resolution
+Have network access control(mac whitelisting and more) and complex passwords so they cant be cracked
+</rich_text>
+    <encoded_png char_offset="702" justification="left" link="" sha256sum="ca4cd2c89b5c0314e7f38c4c17547c8ae5af2b95c38c2dbb26c38f8a1e974c2d"/>
+  </node>
+</cherrytree>

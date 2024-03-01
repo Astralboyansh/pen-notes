@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="Regular Expressions" unique_id="78" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1708580943" ts_lastsave="1708581063">
+    <rich_text justification="left"></rich_text>
+    <rich_text> 
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text> 
+
+ </rich_text>
+    <encoded_png char_offset="0" justification="left" link="" sha256sum="138fdb2b4fa7de090ab9f3ff834bd5fd45592f3a6db0404cff78f4de80363e4e"/>
+    <encoded_png char_offset="3" justification="left" link="" sha256sum="352f935cec7e63055d98b30de71061f7309dc33b67c1c9f5d4711fd3b37b52f9"/>
+    <encoded_png char_offset="7" justification="left" link="" sha256sum="db122024a1e51989b13f3bb97915a0dde85cbf78df89be81ce4bdee62218669d"/>
+  </node>
+</cherrytree>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="Endpoint mapper" unique_id="90" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1708960485" ts_lastsave="1708960568">
+    <rich_text>allows the server to dynamically register then endpoint for the client (port or named pipe)
+
+Since Vista, the default dynamic port range (</rich_text>
+    <rich_text style="italic">ephemeral range</rich_text>
+    <rich_text>) is 49152–65535, heence various msrpc services can be found here.
+
+The EPM provides a single point of contact for RPC clients. The RPC clients contact the EPM and use [the IFID] to determine the port being used by the server program.
+
+The EPM can be queried to enumerate RPC endpoints to look for interesting services
+
+</rich_text>
+  </node>
+</cherrytree>

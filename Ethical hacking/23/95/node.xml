@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="Pipes" unique_id="95" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1708965946" ts_lastsave="1708966000">
+    <rich_text>Pipe: simple communication channel with 2 ends through which information can flow and can allow IPC(inter process communication)
+
+linux: mkfifo command is used to make named pipes
+
+</rich_text>
+    <rich_text link="webs https://versprite.com/vs-labs/microsoft-windows-pipes-intro/">Windows Pipes</rich_text>
+    <rich_text>
+</rich_text>
+  </node>
+</cherrytree>

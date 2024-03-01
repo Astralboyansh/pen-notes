@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="impacket" unique_id="99" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1709025685" ts_lastsave="1709026513">
+    <rich_text>1)Command: impacket-rpcdump 192.168.56.101 -port 135 
+
+Dump the list of RPC endpoints.
+
+2) command: </rich_text>
+  </node>
+</cherrytree>

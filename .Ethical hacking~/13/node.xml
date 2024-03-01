@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="Nikto" unique_id="13" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1705840734" ts_lastsave="1705840888">
+    <rich_text>CLI Web application vulnerability scanner (aggressive)
+
+command: nikto -h(host) vit.ac.in
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text>
+Scans the website for ports, headers, service versions, potential vulnerabilities and dirbusting.
+
+is really aggressive and can be identified and blocked by website, firewall and even web browser
+
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text> </rich_text>
+    <encoded_png char_offset="90" justification="left" link="" sha256sum="a89d9c8f220b42372986a9685e90873385bd31ca29edeeef6469c8faf7a8cea3"/>
+    <encoded_png char_offset="289" justification="left" link="" sha256sum="22bd4a3fad0298fe44b0f310f3d3bb770a219718d2accc0c4e209bc71a9e2f8e"/>
+  </node>
+</cherrytree>

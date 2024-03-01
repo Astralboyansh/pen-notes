@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="rpcclient" unique_id="100" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1709025695" ts_lastsave="1709027342">
+    <rich_text>Command: rpcclient -U "" -N 192.168.56.101
+
+Note: most services wont run without logging in as its 
+
+Options:
+ </rich_text>
+    <encoded_png char_offset="110" justification="left" link="" sha256sum="3d5defffd06218fb483b06850b2ea8edf4b871e63aae7ed158b9a3a701b10a8f"/>
+  </node>
+</cherrytree>

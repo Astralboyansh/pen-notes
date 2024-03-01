@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="Active directory" unique_id="102" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1709049156" ts_lastsave="1709232018">
+    <rich_text link="webs https://www.lepide.com/blog/what-is-active-directory-and-how-does-it-work/">Active Directory</rich_text>
+    <rich_text> is One of the most popular identity management service(ims)
+
+i.e. it allows sys admins to control various parts of the systems stored as objects (like entries in a phonebook)
+
+this include users, groups, network resources, authentications etc.
+
+these allow sysadmins to set policys properties and rules for these “objects” centrally
+
+any machine on the server will be connected to the central server and hence accepts all connections and updates all policys remotely.
+
+authentication over active directory happens over kerberos tickets.
+
+AD DS: Active directory domain service</rich_text>
+  </node>
+</cherrytree>

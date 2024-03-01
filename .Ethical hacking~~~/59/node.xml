@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="less" unique_id="59" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1707215507" ts_lastsave="1707215508">
+    <rich_text>Display large file contents in scrollable format, advanced version of more, also has searching </rich_text>
+  </node>
+</cherrytree>

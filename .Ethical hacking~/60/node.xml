@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="head and tail" unique_id="60" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1707215864" ts_lastsave="1707215892">
+    <rich_text>head: display top 10 lines of a file
+
+head -n display top n lines
+
+tail: display bottom 10 lines
+ tail -n display bottom n lines
+ 
+ </rich_text>
+  </node>
+</cherrytree>

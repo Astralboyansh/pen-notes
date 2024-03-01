@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="MAC Address" unique_id="27" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1705775568" ts_lastsave="1705779664">
+    <rich_text>Media access control
+
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text> 
+
+physical address: comes with network interface cards(nic) and allows for physical switches to read and transport messages
+
+Layer 2 (switching) 
+
+MAc Adddress: first three pairs are </rich_text>
+    <rich_text link="webs https://maclookup.app/">identifiers</rich_text>
+    <rich_text>, i.e: 58:6c:25
+
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <encoded_png char_offset="22" justification="left" link="" sha256sum="1fc88ab9e287a0f7f6e807889bb1772d9f43a825a18338b9868aed45864e635d"/>
+    <encoded_png char_offset="235" justification="left" link="" sha256sum="6f2539abcc9787c226d5a40dea0e826d5785e850231f9edbdfb52c714475331c"/>
+  </node>
+</cherrytree>

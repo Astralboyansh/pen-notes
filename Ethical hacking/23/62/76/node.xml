@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="subcommands" unique_id="76" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1707643626" ts_lastsave="1707643845">
+    <rich_text>takes the output of one command and uses it for argument of another (similar to piping ig)
+
+we can use $() in a command to include another command
+
+ 
+</rich_text>
+    <encoded_png char_offset="148" justification="left" link="" sha256sum="4b0c5f3497cade1b8b157cdd97ea5c55f94f5534fc3f03fa297717822e2f8331"/>
+  </node>
+</cherrytree>

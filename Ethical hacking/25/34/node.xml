@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="Protocols" unique_id="34" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1705776255" ts_lastsave="1705893171">
+    <rich_text>Layer 4 of the OSI model (transport layer)
+
+utilizes </rich_text>
+    <rich_text link="node 38">ports</rich_text>
+    <rich_text> for communication (65k+ ports)</rich_text>
+  </node>
+</cherrytree>

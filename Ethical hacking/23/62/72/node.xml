@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="Initialisation files" unique_id="72" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1707634326" ts_lastsave="1707636698">
+    <rich_text>initialization file: A file that is executed when a shell starts in order to customize
+the environment for the user.
+
+login shell: the initial shell started when a user logins
+
+Which initialization files are executed depends on whether the shell is a login shell or a non-login shell.
+
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text> 
+
+1) profile: first file to execute on login, sets enviorment variables and messages etc can be put in this file for all users to execute upon login, executes all .sh files in profile.d that sets up the shell
+2) bash_profile: the next files are executed from the users home directory, these include (in priority) bash_profile,bash_login,profile(found in kali). bash will look for each of these file and execute the ones
+found first, the purpose of these files is to put message and setup for the particular usier logging in.
+3)bashrc: found in home directory of each user, each user can put in code they want to be executed each time a shell session is started.
+4)bash.bashrc: found in etc, is a systemwide bashrc file that will execute each time a shell session is started by any user, can put code common for all users. it may also call profile.d files
+each time for initialisation of the new shell session.
+
+
+</rich_text>
+    <encoded_png char_offset="286" justification="left" link="" sha256sum="6e3563441d8235ff4f1ecd717600b90753179e783f3eb99371005b22f90a3b3d"/>
+  </node>
+</cherrytree>

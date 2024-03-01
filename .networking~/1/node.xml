@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="IP Address" unique_id="1" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1705773829" ts_lastsave="1705775568">
+    <rich_text>ifconfig
+
+ 
+
+
+layer3 of osi model (router)
+
+public and private ip addresses exist, translation is done by </rich_text>
+    <rich_text link="node 4">NAT</rich_text>
+    <encoded_png char_offset="10" justification="left" link="" sha256sum="2c5401b13d02ccbfb7fa0c29a798837f884454d694a5d6d0c1c19a0d6a8c9746"/>
+  </node>
+</cherrytree>

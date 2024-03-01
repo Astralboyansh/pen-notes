@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="Bug Bounty" unique_id="7" prog_lang="custom-colors" tags="bug bounty" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1705815199" ts_lastsave="1708951587">
+    <rich_text>Bugcrowd
+HackerOne</rich_text>
+  </node>
+</cherrytree>

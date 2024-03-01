@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="Active" unique_id="12" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1705840603" ts_lastsave="1705858920">
+    <rich_text>Interacting with the target, direct scanning and enumeration</rich_text>
+  </node>
+</cherrytree>

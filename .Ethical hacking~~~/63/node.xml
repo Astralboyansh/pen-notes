@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="Shell Variables" unique_id="63" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1707216805" ts_lastsave="1707216928">
+    <rich_text>Shell variables are used to store information within the shell. This information is
+used to modify the behavior of the shell itself or external commands
+
+ 
+
+ 
+
+</rich_text>
+    <encoded_png char_offset="154" justification="left" link="" sha256sum="fb1ec8462aa422e1b1fe43b2bb0ba53f4a410ec3cdd5978e8d48fc278ab31de3"/>
+    <encoded_png char_offset="158" justification="left" link="" sha256sum="fbde298bb1609cf25b69ec2819711885b4f728cb3f2fa20fc5145160340333e2"/>
+  </node>
+</cherrytree>

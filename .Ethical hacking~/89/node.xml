@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="Resources" unique_id="89" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1708950829" ts_lastsave="1708950947">
+    <rich_text link="webs https://0xffsec.com/handbook/">0xffsec handbook</rich_text>
+    <rich_text>
+
+hacktric</rich_text>
+  </node>
+</cherrytree>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="SMB Relay" unique_id="109" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1709232018" ts_lastsave="1709280598">
+    <rich_text>Smb Relay attack:
+
+basically we can forward captured hashes to other systems on the network (if smb signing not enforced) and act as the machine which sent the hash originally.
+this will allow us gain smb access to the machine as if we're the original client machine.
+This is only possible if smb signing is not enforced on both the machines. (by default not enforced on workstations but enforced on server)
+
+If client is an administrator on the said machine, then we can have access to the entire machine as if the admin is accessing it, hence we can access all the files, shell etc.
+
+A machine's packet cannot be used to authenticate against the same machine (ig you cannot create an smb connection with yourself) hence we need a secondary machine in which the first user is authorized to login via smb/normal (and also preferably admin) so we can use our captured packets to login to the target machine. (with smb signing disabled)
+
+Mitigation:
+1) Enforce SMB signing on all devices (can result in dropped speeds)
+2) Disable NTLM authentication (if kerberos stops working, NTLM is again used)
+3) account tiering (if different accounts for different priveleges, ex: bob,bob-admin)
+4) local admin restriction (restrict local admins and know who they're)</rich_text>
+  </node>
+</cherrytree>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="attack" unique_id="106" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1709225717" ts_lastsave="1709281294">
+    <rich_text>We can use </rich_text>
+    <rich_text link="node 107">responder</rich_text>
+    <rich_text> to capture hashes
+
+command: sudo responder -I vboxnet0 -DPv
+
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text> 
+
+This will start listening to the network for flying llmnr and other requests
+
+
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text> 
+
+Once the user mistypes any file/directory/machine name (any host name), name resolution from dns fails (as nothing like that exists) as backup, llmnr requests are broadcasted in the server.
+
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text> 
+
+Nbt-ns, llmnr and mdns requests are broadcasted throughout the network, responder (since it's listening on the same network) captures the request and poisons them( responds in a malicious manner ig) claiming to know the hosts and requesting login credentials.
+
+The said credentials are then sent by the client, in NTLMv2 hashes, which are captured by Responder while performing a MITM, this can then be saved in hash.txt:
+
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text> 
+ we can search </rich_text>
+    <rich_text link="node 108">hashcat</rich_text>
+    <rich_text> for NTLMv2:
+ </rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text> 
+ 
+ hence module 5600 can be used for NTLMv2 cracking as follows:
+ </rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text> 
+ 
+ Finally:
+ 
+ </rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text> </rich_text>
+    <encoded_png char_offset="82" justification="left" link="" sha256sum="6da18c572f97fed3b8cec27f20a8acbb2d3928c25dea85c1d040ba8566438db9"/>
+    <encoded_png char_offset="165" justification="left" link="" sha256sum="064c5a5c8c09ad8f32e0e2a48bb074ed827ebb495431df7a1d1512f607534d09"/>
+    <encoded_png char_offset="360" justification="left" link="" sha256sum="9e50620b435bacf0047c153292d56c9f3700f8116e416beace2ba1ee607c1adc"/>
+    <encoded_png char_offset="787" justification="left" link="" sha256sum="cb7bc27c379129dc90830a5fe390f57cb1872f4f031cc1e670608273b73b894b"/>
+    <encoded_png char_offset="826" justification="left" link="" sha256sum="d04b832ce1d5bbc74c1f0f508e2fba2e2b8d96f1b9ba9a2092b03bd5f45f35f8"/>
+    <encoded_png char_offset="895" justification="left" link="" sha256sum="b8cf1d1b6b14e951240a3c7d75c08df3093ac056a836f7619f4dbb09d62ec80a"/>
+    <encoded_png char_offset="913" justification="left" link="" sha256sum="50d5a90dedfc425026b1edf20cce080773abdbb6544014d4fcd86c055c2ab442"/>
+  </node>
+</cherrytree>

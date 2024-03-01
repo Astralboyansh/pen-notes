@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="Working details" unique_id="86" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1708950387" ts_lastsave="1708950415">
+    <rich_text>
+</rich_text>
+    <rich_text scale="h2">Operation</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text>
+This image was probably created before I was born. Image source: Microsoft Docs [10]1. A process loads an RPC server and registers its universally unique</rich_text>
+    <rich_text weight="heavy"> interface ID (IFID)</rich_text>
+    <rich_text> with the RPC runtime¹¹. The interface acts as a bridge between client and server; the client must </rich_text>
+    <rich_text weight="heavy">implement </rich_text>
+    <rich_text>the interface, and the server must </rich_text>
+    <rich_text weight="heavy">expose </rich_text>
+    <rich_text>the exact same interface.
+2. Client code implements the interface — the server IFID is known to the client.
+3. When the client process executes a method via RPC, the parameters are passed to a stub function, which is called in place of the desired procedure. The stub passes the parameters to a Network Data Representation (NDR) engine for serialisation in a common format. This is necessary as data representation formats might differ between client and server systems.
+4. The client stub then invokes the RPC runtime library,</rich_text>
+    <rich_text weight="heavy"> which transports the serialised data to the server application</rich_text>
+    <rich_text>. This can be achieved via several methods: TCP and UDP, named pipes, or even HTTP. The endpoint is either known (such as a port or named pipe), or the IFID is used to identify it (read on).
+5. The server RPC runtime accepts the incoming communication and calls the server stub procedure. The stub retrieves the parameters from the network buffer, deserialises the data, and calls the </rich_text>
+    <rich_text weight="heavy">actual</rich_text>
+    <rich_text> procedure.
+6. The return value (if any), is returned to the client via a similar set of steps.
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text> 
+
+
+</rich_text>
+    <encoded_png char_offset="11" justification="left" link="webs https://miro.medium.com/v2/resize:fit:264/0*haE6XPlWf2b7uGAG.gif" sha256sum="c88f88f4925d6deaa0a49552e389fccce5c98ae85760ac0ffe63d7cc7af20a64"/>
+    <encoded_png char_offset="1414" justification="left" link="webs https://miro.medium.com/v2/resize:fit:431/0*4w2eZy1A4OyZGw4f.gif" sha256sum="e1a3846bd2ec5c20bc4214b78c2a866536711888e38b8195199222c3485addde"/>
+  </node>
+</cherrytree>

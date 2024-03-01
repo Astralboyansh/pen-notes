@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="Overwriting eip" unique_id="80" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1708931426" ts_lastsave="1708931903">
+    <rich_text>now we know the offset (ex: 2003)
+
+we can send code as “A”*2003 + “B”*4 if we want B to overwrite the 4 bytes of eip
+
+</rich_text>
+    <rich_text link="webs https://github.com/cytopia/badchars">Badcharacters </rich_text>
+    <rich_text>: These are hex characters with special meanings attached to them by the program
+
+hence we cannot use them in our shell code as they will be parsed and the program will act on them first replacing them and hence breaking our shellcode.
+
+We can check for bad chars by sending them to the program after the eip and seeing if they get parsed in the hexdump
+
+Sending:
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text> 
+
+Hex dump:
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text>
+
+Special/bad characters like 04,28,29 etc were parsed by the proggram for special instructions
+neutral/ non special random character (B0) was replaced in it's place
+
+for sequence of 2 chracters, ex: 04,05 only the first one is bad
+
+now we can write the shellcode without utilizing any of these characters so it doesn't break. like the above code was changed while parsing
+
+</rich_text>
+    <encoded_png char_offset="496" justification="left" link="" sha256sum="7c9219ebece8168fb6aa7c5bca32988894e841f66fd250a093cae054e64c6421"/>
+    <encoded_png char_offset="510" justification="left" link="" sha256sum="fb8e3e8c05e03f525b771e44ebdd83742b972b751f1981370078c0030e991bda"/>
+  </node>
+</cherrytree>

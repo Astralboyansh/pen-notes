@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="OSI Model" unique_id="11" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1705777097" ts_lastsave="1705777309">
+    <rich_text>1. P= Physical- data cables, cat 6
+2. D= Data- Switching, Mac Addresss
+3. N= Network- IP addresses, routing
+4. T= Transport- TCP/UDP
+5. S= Session- Session management
+6. P= Presentation- WMV,JPEG,MOV
+7. A= Application- HTTP, SMTP
+8. </rich_text>
+  </node>
+</cherrytree>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="MSRPC" unique_id="85" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1708947714" ts_lastsave="1708960278">
+    <rich_text>MSRPC is Microsoft's implementation of RPC(</rich_text>
+    <rich_text link="webs https://docs.microsoft.com/en-us/windows/win32/rpc/how-rpc-works">remote procedure calls</rich_text>
+    <rich_text>)
+
+
+RPC: are used to call procedures on networked computers (or locally, between processes!). 
+This way, programmers can implement distributed software as if it was operating on a single machine, without having to worry about the underlying network code.
+
+MSRPC: Communication mechanisms
+
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text> 
+
+When an RPC server receives a request, the endpoint may not be known by the client. In this case, the endpoint mapper (EPM) is consulted.
+
+port135: msrpc endpoint mapper service: allows the server to dynamically register then endpoint for the client (port or named pipe)
+
+Since Vista, the default dynamic port range (</rich_text>
+    <rich_text style="italic">ephemeral range</rich_text>
+    <rich_text>) is 49152–65535, heence various msrpc services can be found here.
+
+The EPM provides a single point of contact for RPC clients. The RPC clients contact the EPM and use [the IFID] to determine the port being used by the server program.</rich_text>
+    <encoded_png char_offset="354" justification="left" link="webs https://miro.medium.com/v2/resize:fit:700/1*tw3ZhRj_D5wpo_M_Kvfh6g.png" sha256sum="a231654c10d1fb88d6e50e6ae435e443ca94aa662fe1a95becd1bbc299d57640"/>
+  </node>
+</cherrytree>

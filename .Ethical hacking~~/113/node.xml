@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="Gaining shell (SMB)" unique_id="113" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1709240198" ts_lastsave="1709240819">
+    <rich_text>Metasploit:
+
+use exploit/windows/smb/psexec
+
+1) Using cracked credentials:
+
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text> 
+
+2) Using uncracked credentials (hash):
+
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text> 
+
+psexec:
+
+impacket-psexec (less noisy then metasploit)
+
+1) using cracked credentials:
+
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text> 
+
+2) using uncracked credentials (hashes):
+
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text> 
+
+</rich_text>
+    <encoded_png char_offset="76" justification="left" link="" sha256sum="cf9fa3380a6c51595180a879788e8ed7a9121a60d0d70a7f7013b079f365b0e2"/>
+    <encoded_png char_offset="120" justification="left" link="" sha256sum="dc33452a45aa0e7b8399a4476750fec3f6032e96355cc960c66d99ff2ed9babf"/>
+    <encoded_png char_offset="210" justification="left" link="" sha256sum="24bbe9f3a6afbf96af9f948818e47fa46257795c5be42d240fac305a8f38a527"/>
+    <encoded_png char_offset="256" justification="left" link="" sha256sum="8f0e30d5be423cf7cb9ac775055bb90eb149657dc7fd3ad595299a55751bc9d9"/>
+  </node>
+</cherrytree>

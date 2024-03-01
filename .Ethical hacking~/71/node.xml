@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="export" unique_id="71" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1707572976" ts_lastsave="1707590725">
+    <rich_text>convert an existing local variable to an environment variable
+
+If the variable doesn’t already exist, the export command can create it directly as an environment variable
+</rich_text>
+  </node>
+</cherrytree>

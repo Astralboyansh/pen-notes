@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="Pipes" unique_id="93" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1708964117" ts_lastsave="1708965894">
+    <rich_text>Pipe: simple communication channel with 2 ends through which information can flow and can allow IPC(inter process communication)
+
+linux: mkfifo command is used to make named pipes
+
+SMB pipes: connection similar to tcp connection between client and server, name of the pipe serves as endpoint and hence allows anonymity, hence higher layers can be isolated from lower layers easily achieving abstraction. Gives higher layers access to authorization services of smb for transfer of </rich_text>
+    <rich_text link="node 85">RPC</rich_text>
+    <rich_text>
+
+Windows Pipes
+</rich_text>
+  </node>
+</cherrytree>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="3 way handshake" unique_id="37" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1705776544" ts_lastsave="1705776807">
+    <rich_text>SYN &gt; SYN ACK&gt; ACK
+
+SYN: Synchronize (initiate connection)
+ACK: Acknowledge</rich_text>
+  </node>
+</cherrytree>

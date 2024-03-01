@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="directory enumeration" unique_id="14" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1705842145" ts_lastsave="1705843071">
+    <rich_text>Find carious directories/files/pages on the given domain
+
+tools:
+dirbuster
+dirb
+gobuster</rich_text>
+  </node>
+</cherrytree>

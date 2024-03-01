@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="Dirbuster" unique_id="15" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1705843071" ts_lastsave="1706433253">
+    <rich_text>automatic script to send requests to a web domain using wordlists to discover various files and pages hosted (GUI)
+
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text> 
+
+as it sends 100s of requests spontaneously, it is ratelimited and thus starts crashing as requests are dropped by server
+
+Results:
+
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text>
+
+ </rich_text>
+    <encoded_png char_offset="116" justification="left" link="" sha256sum="18db6ad47e121b810207f79d8e0402681ff002e2cc595ae02453d19549678076"/>
+    <encoded_png char_offset="252" justification="left" link="" sha256sum="f336fddafcdcc020707d5cee61d4020bae6395ec93befeeb8ca9f2d85c569aa0"/>
+  </node>
+</cherrytree>

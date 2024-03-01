@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="nmap" unique_id="101" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1709025707" ts_lastsave="1709027811">
+    <rich_text>nmap mrpc enum script:
+
+nmap -sV -v -script msrpc-enum -Pn 192.168.56.101
+
+ </rich_text>
+    <encoded_png char_offset="75" justification="left" link="" sha256sum="fb2d99c937fc8d55a42b83662c02fe2d12af10507e2bd0be4d594b9ea0b98e99"/>
+  </node>
+</cherrytree>

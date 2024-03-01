@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="Commands" unique_id="20" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1705780799" ts_lastsave="1708420052">
+    <rich_text link="webs https://fossbytes.com/a-z-list-linux-command-line-reference/">resource</rich_text>
+    <rich_text>
+
+</rich_text>
+    <rich_text link="file L2hvbWUvYXN0cmFsL25vdGVzL0xhYi0xIEJhc2ljIExpbnV4IENvbW1hbmRzIHdpdGggRXhhbXBsZXMgKDVKYW4yMDI0KS5wZGY=">Cheatsheet</rich_text>
+  </node>
+</cherrytree>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="Resources" unique_id="91" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1708960632" ts_lastsave="1708960651">
+    <rich_text link="webs https://learn.microsoft.com/en-US/troubleshoot/windows-server/networking/service-overview-and-network-port-requirements">Windows services and ports</rich_text>
+    <rich_text>
+
+</rich_text>
+  </node>
+</cherrytree>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="Components" unique_id="103" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1709050942" ts_lastsave="1709134048">
+    <rich_text>1) Physical:
+
+- Domain Controller: the central server that has the AD DS, and hence has control over all the objects of the active directory. Therefore the Domain controller is accessed for authentication by other machines on the server and changes can be made to the domain controller to update the objects.
+
+-Data Store: Stores the entire database(objects and their relations) and hence is used to retrieve data for authorization. contains NTDS.dit file for passwords.
+
+2) Logical (virtual):
+
+- AD DS Schema: A schema for the entire AD, like database schema
+- Domains: scope of an AD is tied to a domain, ex: vit.ac.in, it can also have sub/child domains. ex: chennai.vit.ac.in, the above AD rules may will apply here
+- Trees: hierarchial relationship between domains and childs
+- Forest: connection of trees
+- Organisational Units: Active directory containers that contain objects
+- Objects: Entities within active dieectory
+
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text> </rich_text>
+    <encoded_png char_offset="929" justification="left" link="" sha256sum="3ab0b22b168ac24c5feab5a5c24d6f1813fda144bf32d7a37bf63c36aaf227de"/>
+  </node>
+</cherrytree>

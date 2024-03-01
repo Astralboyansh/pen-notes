@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="Subnetting" unique_id="27" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1705777391" ts_lastsave="1705779658">
+    <rich_text>Allows number of hosts for a network by locking in the static and dynamic bits
+
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text> 
+ 
+ Structure of netmask:
+ </rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text> 
+ 
+ same structure as ip address (octals), but the bits can only be turned on in order.
+ 
+ The turned on bits are fixed and cannot be changed by any nic or networking device, ex: wifi devices cannot be assigned to these addresses/ any protocol cannot modify these values. 
+ 
+ for ex: a wifi base address with 192.168.232.0 and netmask 255.255.255.0 signifies the first 24 bits are turned on( all 255) hence when assigning ip address, these cannot be changed. i.e 192.168.232 are fixed values and cannot be changed by router or anything.
+ 
+ hence the effective address that can be allocated to devices on the network are 192.168.232.0-255 i.e 256 hosts (2^8 as the last 8 bits are left unset and these places can be used) hence 254 devices can be connected to this network (first and last address are reserved for network id and broadcast)
+ 
+ since the first 24 bits are set, the address and the subnet can be represented as: 192.168.232.0/24 where the /24 signifies the number of set bits.
+ 
+ ex: 192.168.0.0/23 signifies only 23 bits are set, i.e: 11111111.11111111.11111110.00000000=255.255.254.0
+ 
+ therefore (2^9) 512 hosts can be accomodated out of which the last decimal can range from 0-255 (2^8 unset bits) and the 2nd last can range 0-1 (2^1 unset bits)
+ 
+ hence possible ip ranges are 192.168.0.0-255, 192.168.1.0-255
+ 
+ </rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text> 
+ 
+ </rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text>
+ 
+  </rich_text>
+    <encoded_png char_offset="80" justification="left" link="" sha256sum="a4b95b72831eb10618e49c4dd881b695758fb2c1efa9b44b30a2b19ea67a6a7b"/>
+    <encoded_png char_offset="109" justification="left" link="" sha256sum="2967528e04083d5b5018fc18e69326306c5748257113ac551a67c8478c83ecb5"/>
+    <encoded_png char_offset="1442" justification="left" link="" sha256sum="6cd123429b72b380e9aefeee616fe4068e87dab606e956101d1a2be9e65849b5"/>
+    <encoded_png char_offset="1448" justification="left" link="" sha256sum="8e7ae24f7ec12161223bac9fbb1f01d133cd2f084208c5a7cb38f317211df460"/>
+  </node>
+</cherrytree>

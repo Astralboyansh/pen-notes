@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="ipv4" unique_id="2" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1705773907" ts_lastsave="1705774482">
+    <rich_text>Decimal notation
+
+1  and 0 put together for human readable format
+
+ex: 192.168.57.139, each number is just decimal representation on a binary octal. ex: 11111111.11111111.11111111.11111111=255.255.255.255
+a</rich_text>
+  </node>
+</cherrytree>

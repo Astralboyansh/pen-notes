@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="touch" unique_id="61" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1707216692" ts_lastsave="1707216693">
+    <rich_text>The touch command has two functions: to create an empty file and to update the
+modification and access timestamps of an existing file
+
+ 
+
+</rich_text>
+    <encoded_png char_offset="135" justification="left" link="" sha256sum="ac89dabdc1559a2198fdfea1c6602d4a89fdc97da099bc04fab7bcc148e6a26a"/>
+  </node>
+</cherrytree>

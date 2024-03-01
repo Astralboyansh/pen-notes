@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="finding offset" unique_id="79" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1708930243" ts_lastsave="1709016930">
+    <rich_text>pattern create: creates a pattern of sudo random characters of given length, we can then use this patter to overflow the buffer and based on the values written in eip it will give us it's offset. 
+
+command  “/usr/share/metasploit-framework/tools/exploit/pattern_create.rb -l [size of stack/approx bytes to overwrite eip found from spiking]” 
+
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text> 
+
+
+can use python to send it over the network
+
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text> 
+
+Python3:
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text> 
+
+Values overwritten with specific bytes:
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text> 
+
+pattern offset: uses the found values to find the byte offset for eip or basically anything 
+
+command  “/usr/share/metasploit-framework/tools/exploit/pattern_create.rb -l [size of stack/approx bytes to overwrite eip found from spiking] -q [found values in eip]” 
+
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text> 
+
+therefore the eip offset is 2003 bytes.</rich_text>
+    <encoded_png char_offset="343" justification="left" link="" sha256sum="04b37e11ab23827c299f17b12112038f5718923fa9f645a627d01297629a3200"/>
+    <encoded_png char_offset="392" justification="left" link="" sha256sum="508da6d9a0a58c5bce179b0c534721e77b36fb7816685318d4696a549cc78380"/>
+    <encoded_png char_offset="405" justification="left" link="" sha256sum="5e8e0a802f8a5e798be240774b2a463dcd95457b8ad7b3a51a3a73f262a0a2e0"/>
+    <encoded_png char_offset="449" justification="left" link="" sha256sum="7728f845f193f84a4de87989b992486b5ecbb4f5915de177efdbc5fb7bb19113"/>
+    <encoded_png char_offset="717" justification="left" link="" sha256sum="eacf1b63e7d16a0a4db936c476bc4c186e36edfe187c44f39eafa091e1b452cf"/>
+  </node>
+</cherrytree>

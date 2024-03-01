@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="SMB Enumeration" unique_id="16" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1705857437" ts_lastsave="1707076755">
+    <rich_text>Samba protocol (file share) - port 139
+
+metasploit can be used to get version info and enumerate (msfconsole, use auxiliary/scanner/smb/smb_version)
+
+smbclient can be used to connect to machine [smbclient -L \\\\&lt;ip&gt;\\]
+
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text> 
+</rich_text>
+    <encoded_png char_offset="221" justification="left" link="" sha256sum="d22af14ae9ecad0acd0e433d877509ef031c5b2f8c73cc843ce05f3267580cdd"/>
+  </node>
+</cherrytree>

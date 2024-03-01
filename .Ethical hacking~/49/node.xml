@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="Dictionary" unique_id="49" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1706965492" ts_lastsave="1706965512">
+    <rich_text>Burpsuite can be used for web based 
+1) Credential Stuffing: Using known leaked usernames and passwords to check if they work
+2) Password spraying: using Probable passwords with all the known accounts to check if they work</rich_text>
+  </node>
+</cherrytree>

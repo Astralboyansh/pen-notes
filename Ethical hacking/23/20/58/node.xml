@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="Globbing (special character)" unique_id="58" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1707215322" ts_lastsave="1707215352">
+    <rich_text>Use special characters to fill space of actual names
+
+
+  
+ 
+ ex:
+  
+ </rich_text>
+    <encoded_png char_offset="56" justification="left" link="" sha256sum="bdb0d8d5cb15b8b2a0e3a7665a1baab81c6ee8a594478dcfb8cb5b1b501fc808"/>
+    <encoded_png char_offset="67" justification="left" link="" sha256sum="1a5af183e0ec4eddd22854117b89515c67d1a72b1c7c62d1b3ea433f48fdae6f"/>
+  </node>
+</cherrytree>

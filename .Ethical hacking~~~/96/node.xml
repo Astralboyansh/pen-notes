@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="vuln module and exploit" unique_id="96" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1709012970" ts_lastsave="1709013533">
+    <rich_text>Use </rich_text>
+    <rich_text link="webs https://github.com/corelan/mona">mona</rich_text>
+    <rich_text> module to find vulnerable files/services(dlls) with memory protection off:
+
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text> 
+
+find the shell code to jump to esp of the vuln dll:
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text> 
+
+use mona to find this in the program for the vulnerable 
+ 
+
+this gives us all the memory addresses in which the vulnerable dll jumps to esp.
+
+overwrite one of these address(in reverse due to  in eip to jump to esp:
+
+
+
+</rich_text>
+    <encoded_png char_offset="85" justification="left" link="" sha256sum="6aafe851e129aa4a86302409d5d98220b44b0d51960c7ae56426583bef020336"/>
+    <encoded_png char_offset="141" justification="left" link="" sha256sum="3da9dad68c92046ab1cb53a839ab265cab718a8e9b3670e801b717d8f4eb7862"/>
+    <encoded_png char_offset="202" justification="left" link="" sha256sum="837c19396a63fb616d728da1e9a67d55ef5134497bebf7870909d051595265d9"/>
+  </node>
+</cherrytree>

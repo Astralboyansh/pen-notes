@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="Initial attack" unique_id="112" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1709238849" ts_lastsave="1709240084">
+    <rich_text>Assuming we've somehow gained access to the network(pendrives, malware etc), now we're going to do an internal pentest to get access to other machines on the network.
+
+SMB based attacks: These are based on file transfer and communication between 2 computers in which we can perform an mitm
+1) LLMNR Poisoning
+2) SMB-relay</rich_text>
+  </node>
+</cherrytree>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="Chmod" unique_id="2" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1705780806" ts_lastsave="1705780826">
+    <rich_text> </rich_text>
+    <encoded_png char_offset="0" justification="left" link="" sha256sum="7ca86f08d9c706e3e5f28a44a1ad78232a6777d225633d84519f9f677ddc864e"/>
+  </node>
+</cherrytree>

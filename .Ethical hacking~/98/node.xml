@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="Enumeration" unique_id="98" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1709025665" ts_lastsave="1709026372">
+    <rich_text>Enumeration of port 135 (MSRPC endpoint mapper):
+
+1) impacket
+2) nmap: mrpc-enum
+3) rpcclient</rich_text>
+  </node>
+</cherrytree>

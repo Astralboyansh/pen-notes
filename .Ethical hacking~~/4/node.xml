@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="Subdomains" unique_id="4" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1705814922" ts_lastsave="1705839210">
+    <rich_text>Find subdomains: 
+1. Google Fu(Dorking): Using google syntax to narrow down pages
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text>
+2. dig
+3. nmap
+4. </rich_text>
+    <rich_text link="node 10">sublist3r</rich_text>
+    <rich_text>
+5. bluto
+6. </rich_text>
+    <rich_text link="node 9">crt.sh</rich_text>
+    <rich_text>
+
+special tool: OWASP AMASS (check out later)
+
+once having a list of subdomains, use http probe to check which are alive abd accessible (check out later)
+</rich_text>
+    <encoded_png char_offset="82" justification="left" link="" sha256sum="342d8adb0a7b7d1f6750305d06b9853194119a9337eba45ff99dd081f1dc280d"/>
+  </node>
+</cherrytree>
